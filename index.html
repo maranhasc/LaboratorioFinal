@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+    
+    
+</head>
+
+<body>
+    <div class="container  row justify-content-center align-items-center letra pt-3">
+
+        <div class="caja pt-3">
+            <h1>Create account</h1><br>
+            <form action="register.php" method="post">
+                <label for="nombre">Nombre:</label> <br>
+                <input type="text" id="nombre" pattern="[a-zA-Z]+" name="nombre" required class=" form w-100">
+                <label for="nombre" data-error="Rellene este campo"></label><br>
+                <label for="primer_apellido">primer apellido:</label> <br>
+                <input type="text" id="primer_apellido" pattern="[a-zA-Z]+" name="primer_apellido" required class=" form w-100">
+                <label for="primer_apellido" data-error="Rellene este campo"></label><br>
+                <label for="segundo_apellido">segundo apellido:</label> <br>
+                <input type="text" id="segundo_apellido" pattern="[a-zA-Z]+" name="segundo_apellido" required class=" form w-100">
+                <label for="segundo_apellido" data-error="Rellene este campo"></label><br>
+                <label for="correo">Correo electrónico:</label> <br>
+                <input type="email" id="correo" name="correo" required class=" form w-100 ">
+                <label for="correo" class="error" data-error="Rellene este campo"></label><br>
+                <label for="Login">Login:</label><br>
+                <input type="text" id="Login" name="Login"  required class=" form w-100 ">
+                <label for="Login" data-error="Rellene este campo"></label><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" minlength="4" maxlength="8" required class=" form w-100 ">
+                <label for="password" data-error="Rellene este campo"></label><br>
+                <p>
+                    <button type="submit" class="btn">Enviar</button>
+                </p>
+
+            </form>
+            <button  class="btn" ><a href="consulta.php">consulta</a></button>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
