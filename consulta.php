@@ -22,7 +22,7 @@ $result = $conn->query($sql);
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
     <title>Lista de Registros</title>
     <style>
         body {
